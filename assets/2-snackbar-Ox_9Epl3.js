@@ -1,0 +1,2 @@
+import{i as s}from"./vendor-BbSUbo7J.js";const u=document.querySelector(".form");u.addEventListener("submit",r=>{r.preventDefault();const t=Number(document.querySelector('[name="delay"]').value),o=document.querySelector('input[name="state"]:checked').value;new Promise((e,m)=>{setTimeout(()=>{o==="fulfilled"?e(t):m(t)},t)}).then(e=>{s.success({message:`Fulfilled promise in ${e}ms`})}).catch(e=>{s.error({message:`Rejected promise in ${e}ms`})})});
+//# sourceMappingURL=2-snackbar-Ox_9Epl3.js.map

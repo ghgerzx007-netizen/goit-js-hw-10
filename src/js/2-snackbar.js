@@ -31,7 +31,7 @@ iziToast.success ({message: `Fulfilled promise in ${delay}ms`})
 .catch(delay =>{
    iziToast.error({message:`Rejected promise in ${delay}ms`})
 })
-})
+});
 
 
 
